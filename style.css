@@ -17,9 +17,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    max-width: 800px;
-    margin: 0 auto;
+    /* max-width: 800px; */
+    /* margin: 0 auto; */
     padding: 0 20px;
+    align-items: flex-end;  
 }
 
 /* Header */
@@ -33,7 +34,7 @@ body {
 }
 
 .logo {
-    max-width: 120px;
+    /* max-width: 120px; */
     height: auto;
     transition: opacity 0.3s ease;
 }
@@ -83,6 +84,7 @@ body {
     font-weight: 600;
     margin-bottom: 1rem;
     color: #ffd700;
+    color: #908a8a;
 }
 
 .coming-soon-text {
@@ -294,7 +296,7 @@ body {
 
 /* Footer */
 .footer {
-    padding: 3rem 0 2rem;
+    /* padding: 3rem 0 2rem; */
     text-align: center;
 }
 
@@ -373,7 +375,9 @@ body {
     }
     
     .logo {
-        max-width: 80px;
+        /* max-width: 80px; */
+        width: 150px;
+        height: 200px !important;
     }
     
     .brand-title {
